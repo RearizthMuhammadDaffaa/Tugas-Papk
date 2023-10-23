@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    function namaFungsi(){
+      console.log("hello wordl");
+    }
+
+    var NamaFungsi = function (){
+      console.log("hello world");
+    }
+    var Namafungsi = ()=>{
+      console.log("hello world");
+    }
+    var nama_Fungsi = new Function('console.log("hello world")')
+
+    namaFungsi()
+    NamaFungsi()
+    Namafungsi()
+    nama_Fungsi()
+    
+  </script>
+</body>
+</html>
